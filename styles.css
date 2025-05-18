@@ -1,0 +1,176 @@
+:root {
+  --bg-light: #e3f2fd;
+  --text-dark: #1a237e;
+  --accent: #2092ef;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.site-header {
+  background-color: var(--white);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.site-header h1 {
+  font-size: 1.5rem;
+}
+
+.main-nav {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: 500;
+  margin-top: 9px;
+  margin-left: 100px;
+}
+
+a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: 500;
+}
+
+.main-nav a:hover {
+  color: var(--accent);
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.annotation {
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  width: 700px;
+}
+
+.btn {
+    width: auto;
+    margin-top: 15px;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--accent);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 0.25rem;
+  font-weight: 600;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.site-footer {
+  background-color: var(--white);
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 4rem;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.site-footer p {
+  font-size: 0.875rem;
+}
+
+.project-img {
+    border-radius: 10px;
+}
+
+.headcontainer {
+    display: flex;
+    vertical-align: middle;
+    height: auto;
+    margin-top: 15px;
+}
+
+header {
+    height: 75px;
+}
+
+
+.news-preview{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 25px;
+}
+
+.team-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px
+}
+
+.abouttextconatainer{
+    margin-top: 30px;
+}
+
+.decribeteam{
+    width: 450px;
+}
+
+.teamcontainer {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.webotsimg {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.ares {
+    margin-left: 0px;
+}
